@@ -11,6 +11,10 @@ p {
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 700;
     font-style: normal;
+    width: 100%;
+    height: 80px;
+    padding: 20px 30px;
+    align-items: center;
 }
 .navigation a{
     color: white;
@@ -28,12 +32,3 @@ p {
 body {
   margin: 0;
 }
-.site_header {
-  width: 100%;
-}
-.site_header {
-  height: 80px; 
-  padding: 20px 30px;
-  align-items: center; 
-}
-

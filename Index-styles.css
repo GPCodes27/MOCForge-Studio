@@ -1,3 +1,10 @@
 p {
     text-indent: 0;
 }
+.siteName_header {
+    position: sticky;
+    top: 0;
+    background-color: #7f7f7f ;
+    display: flex;
+    justify-content: space-between;
+}

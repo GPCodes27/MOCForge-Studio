@@ -8,12 +8,32 @@ p {
     background-color: #7f7f7f ;
     display: flex;
     justify-content: space-between;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 .navigation a{
     color: white;
     margin-left: 20px;
     transition: color 0.2s ease ;
+    font-weight: bold;
+    text-decoration: none;
 }
 .navigation a:hover{
     color: #cccccc;
 }
+.navigation a:last-child{
+    margin-right: 20px;
+}
+body {
+  margin: 0;
+}
+.site_header {
+  width: 100%;
+}
+.site_header {
+  height: 80px; 
+  padding: 20px 30px;
+  align-items: center; 
+}
+

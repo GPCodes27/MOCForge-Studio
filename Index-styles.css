@@ -7,18 +7,18 @@ p {
     top: 0;
     background-color: #7f7f7f ;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 700;
     font-style: normal;
     width: 100%;
-    height: 40px;
-    padding: 10px 15px;
+    height: 20px;
+    padding: 5px 15px;
     align-items: center;
 }
 .navigation a{
     color: white;
-    margin-left: 20px;
+    margin-left: 10px;
     transition: color 0.2s ease ;
     font-weight: bold;
     text-decoration: none;

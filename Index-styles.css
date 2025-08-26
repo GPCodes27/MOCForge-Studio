@@ -43,4 +43,33 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     background: linear-gradient(90deg,rgba(42, 57, 155, 1) 0%, rgba(87, 175, 199, 1) 42%, rgba(83, 237, 224, 1) 100%);
+    margin:40px auto;
+    border-radius: 12px; 
+    max-width: 1200px;
 }
+.Left {
+  flex: 1;
+  padding: 40px;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.Right {
+  flex: 2;
+  padding: 40px;
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.Right a {
+  display: inline-block;
+  margin-top: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+}
+.Right a:hover {
+  color: #e0f7fa;
+}
+

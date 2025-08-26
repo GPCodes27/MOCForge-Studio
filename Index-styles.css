@@ -37,7 +37,7 @@ body {
 }
 .Main_Page{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     background: linear-gradient(90deg,rgba(55, 42, 155, 1) 0%, rgba(64, 154, 192, 1) 54%, rgba(83, 237, 224, 1) 100%);
     /*margin:40px auto;*/

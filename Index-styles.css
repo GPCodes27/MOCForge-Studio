@@ -35,16 +35,13 @@ p {
 body {
   margin: 0;
 }
-.About_Us{
-    color: darkgray;
-}
 .Main_Page{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     background: linear-gradient(90deg,rgba(42, 57, 155, 1) 0%, rgba(87, 175, 199, 1) 42%, rgba(83, 237, 224, 1) 100%);
-    margin:40px auto;
-    border-radius: 12px; 
+    /*margin:40px auto;*/
+    border-radius: 0px; 
     max-width: 1200px;
 }
 .Left {

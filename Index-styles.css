@@ -38,3 +38,8 @@ body {
 .About_Us{
     color: darkgray;
 }
+.Main_Page{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}

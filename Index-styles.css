@@ -17,13 +17,25 @@ p {
   color: white;
   text-decoration: none;
 }
-.site_header,
+.site_header{
+  position: fixed;
+  top: 0;
+  background-color: #7f7f7f;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+  z-index: 1000;
+}
 .navigation {
     position: fixed;
     top: 0;
     background-color: #7f7f7f ;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 700;
     font-style: normal;

@@ -1,7 +1,7 @@
 p {
     text-indent: 0;
 }
-.siteName_header {
+.mainNav {
     white-space: nowrap;
     color: white;
     font-family: "Be Vietnam Pro", sans-serif;
@@ -10,12 +10,12 @@ p {
     transition: color 0.2s ease;
     text-decoration: none;
 }
-.siteName_header a:hover {
+.mainNav:hover{
   color:#cccccc;
 }
 .site_header,
 .navigation {
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color: #7f7f7f ;
     display: flex;
@@ -26,6 +26,7 @@ p {
     width: 100%;
     padding: 5px 10px 5px 10px;
     align-items: center;
+    z-index: 1000;
 }
 .navigation a{
     color: white;

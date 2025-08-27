@@ -99,7 +99,7 @@ body {
   overflow: hidden;
 }
 
-.StudCoach-Logo {
+.MOCMentor-Logo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -120,7 +120,7 @@ body {
   align-items: center;
 }
 .MOCFlash-Logo,
-.StudCoach-Logo {
+.MOCMentor-Logo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -131,7 +131,7 @@ body {
 
 /* 🔍 Hover effect */
 .MOCFlash-Logo:hover,
-.StudCoach-Logo:hover {
+.MOCMentor-Logo:hover {
   transform: scale(0.95);       /* Shrinks slightly */
   filter: brightness(85%);      /* Dims the image */
 }

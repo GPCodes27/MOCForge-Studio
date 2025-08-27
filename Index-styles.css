@@ -106,3 +106,30 @@ body {
   object-fit: cover;
   overflow: hidden;
 }
+.Our-Services {
+  background-image:
+  radial-gradient(circle at top left, #444 0%, transparent 60%),
+  radial-gradient(circle at top right, #ccc 0%, transparent 60%),
+  radial-gradient(circle at bottom left, #ccc 0%, transparent 60%),
+  radial-gradient(circle at bottom right, #444 0%, transparent 60%);
+  background-color: #888; 
+}
+.Images {
+  align-items: center;
+}
+.MOCFlash-Logo,
+.StudCoach-Logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* 🔍 Hover effect */
+.MOCFlash-Logo:hover,
+.StudCoach-Logo:hover {
+  transform: scale(0.95);       /* Shrinks slightly */
+  filter: brightness(85%);      /* Dims the image */
+}

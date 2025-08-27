@@ -60,7 +60,7 @@ body {
     /*margin:40px auto;*/
     border-radius: 0px; 
     max-width: 1200px;
-    margin-top: 60px; /* ✅ added to prevent overlap with fixed header */
+    /*margin-top: 70px; /* ✅ added to prevent overlap with fixed header */
 }
 
 .Left {

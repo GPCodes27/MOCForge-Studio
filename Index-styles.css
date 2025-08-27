@@ -4,6 +4,14 @@ p {
 .siteName_header {
     white-space: nowrap;
     color: white;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+.siteName_header a:hover {
+  color:#cccccc;
 }
 .site_header,
 .navigation {

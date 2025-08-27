@@ -97,6 +97,7 @@ body {
   border-radius: 50%;     
   object-fit: cover;      
   overflow: hidden;
+  text-decoration: none;
 }
 
 .MOCMentor-Logo {
@@ -105,6 +106,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   overflow: hidden;
+  text-decoration: none;
 }
 /*
 .Our-Services {

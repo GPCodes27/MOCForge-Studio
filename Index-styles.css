@@ -13,6 +13,10 @@ p {
 .mainNav:hover{
   color:#cccccc;
 }
+.mainNav:visited {
+  color: white;
+  text-decoration: none;
+}
 .site_header,
 .navigation {
     position: fixed;

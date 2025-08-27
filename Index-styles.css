@@ -106,7 +106,16 @@ body {
   object-fit: cover;
   overflow: hidden;
 }
-
+/*
+.Our-Services {
+  background-image:
+  radial-gradient(circle at top left, #444 0%, transparent 60%),
+  radial-gradient(circle at top right, #ccc 0%, transparent 60%),
+  radial-gradient(circle at bottom left, #ccc 0%, transparent 60%),
+  radial-gradient(circle at bottom right, #444 0%, transparent 60%);
+  background-color: #888; 
+}
+*/
 .Images {
   align-items: center;
 }

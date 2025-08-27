@@ -1,38 +1,58 @@
 p {
     text-indent: 0;
 }
-.site_header,
-.navigation {
-    position: fixed;
-    top: 0;
-    background-color: #7f7f7f ;
-    display: flex;
-    justify-content: flex-end;
-    font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    width: 100%;
-    padding: 5px 10px 5px 10px;
-    align-items: center;
-    z-index: 1000;
+
+/* ✅ Updated: now handles both site name and nav layout */
+.site_header {
+  position: fixed; /* added */
+  top: 0;           /* added */
+  left: 0;          /* added */
+  width: 100%;      /* added */
+  background-color: #7f7f7f;
+  display: flex; /* added */
+  justify-content: space-between; /* added */
+  align-items: center; /* added */
+  padding: 5px 10px 5px 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  z-index: 1000;
 }
-.navigation a{
+
+/* ✅ New: styles for the site name */
+.siteName_header {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* ✅ Cleaned: removed fixed positioning from nav */
+.navigation {
+  display: flex; /* changed */
+}
+
+.navigation a {
     color: white;
     margin-left: 10px;
     transition: color 0.2s ease ;
     font-weight: bold;
     text-decoration: none;
 }
-.navigation a:hover{
+
+.navigation a:hover {
     color: #cccccc;
 }
-.navigation a:last-child{
+
+.navigation a:last-child {
     margin-right: 20px;
 }
+
 body {
   margin: 0;
 }
-.Main_Page{
+
+.Main_Page {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -40,7 +60,9 @@ body {
     /*margin:40px auto;*/
     border-radius: 0px; 
     max-width: 1200px;
+    margin-top: 60px; /* ✅ added to prevent overlap with fixed header */
 }
+
 .Left {
   flex: 1;
   padding: 40px;
@@ -56,6 +78,7 @@ body {
   font-size: 1.1rem;
   line-height: 1.6;
 }
+
 .Right a {
   display: inline-block;
   margin-top: 1.5em;
@@ -63,9 +86,11 @@ body {
   text-decoration: underline;
   color: white;
 }
+
 .Right a:hover {
   color: #e0f7fa;
 }
+
 .MOCFlash-Logo {
   width: 200px;           
   height: 200px;          
@@ -73,7 +98,8 @@ body {
   object-fit: cover;      
   overflow: hidden;
 }
-.StudCoach-Logo{
+
+.StudCoach-Logo {
   width: 200px;
   height: 200px;
   border-radius: 50%;

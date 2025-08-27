@@ -4,6 +4,7 @@ p {
 .mainNav {
     white-space: nowrap;
     color: white;
+    justify-content: flex-end;
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -22,7 +23,6 @@ p {
   top: 0;
   background-color: #7f7f7f;
   display: flex;
-  justify-content: space-between;
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 700;
   font-style: normal;

@@ -1,0 +1,44 @@
+.site_header {
+  position: fixed; /* added */
+  top: 0;           /* added */
+  left: 0;          /* added */
+  width: 100%;      /* added */
+  background-color: #7f7f7f;
+  display: flex; /* added */
+  justify-content: space-between; /* added */
+  align-items: center; /* added */
+  padding: 5px 10px 5px 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  z-index: 1000;
+}
+
+/* ✅ New: styles for the site name */
+.siteName_header {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* ✅ Cleaned: removed fixed positioning from nav */
+.navigation {
+  display: flex; /* changed */
+}
+
+.navigation a {
+    color: white;
+    margin-left: 10px;
+    transition: color 0.2s ease ;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #cccccc;
+}
+
+.navigation a:last-child {
+    margin-right: 20px;
+}

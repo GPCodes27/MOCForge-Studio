@@ -1,35 +1,7 @@
 p {
     text-indent: 0;
 }
-.mainNav {
-    white-space: nowrap;
-    color: white;
-    justify-content: flex-end;
-    font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    transition: color 0.2s ease;
-    text-decoration: none;
-}
-.mainNav:hover{
-  color:#cccccc;
-}
-.mainNav:visited {
-  color: white;
-  text-decoration: none;
-}
-.site_header{
-  position: fixed;
-  top: 0;
-  background-color: #7f7f7f;
-  display: flex;
-  font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  width: 100%;
-  padding: 5px 10px 5px 10px;
-  z-index: 1000;
-}
+.site_header,
 .navigation {
     position: fixed;
     top: 0;
@@ -99,5 +71,12 @@ body {
   height: 200px;          
   border-radius: 50%;     
   object-fit: cover;      
+  overflow: hidden;
+}
+.StudCoach-Logo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
   overflow: hidden;
 }
